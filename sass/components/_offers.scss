@@ -1,0 +1,58 @@
+.offers {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  grid-template-rows: repeat(2, 1fr);
+
+  &__card {
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    min-height: 300px;
+
+    &--1 {
+      background-image: linear-gradient(
+          to right bottom,
+          rgba(0, 0, 0, 0.1),
+          rgba(0, 0, 0, 0.1)
+        ),
+        url(../../public/img/offers/pizza.webp);
+      background-size: cover;
+      background-position: 50%;
+    }
+
+    &--2 {
+      background-image: linear-gradient(
+          to right bottom,
+          rgba(0, 0, 0, 0.1),
+          rgba(0, 0, 0, 0.1)
+        ),
+        url(../../public/img/offers/cookies.webp);
+      background-size: cover;
+      background-position: 50%;
+    }
+  }
+
+  &__content {
+    background: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    );
+    height: 100%;
+    display: grid;
+    color: #fff;
+    padding: 4rem;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  &__heading {
+    font-size: 4rem;
+    margin-bottom: 2.2rem;
+  }
+
+  &__text {
+    font-size: 2rem;
+  }
+}

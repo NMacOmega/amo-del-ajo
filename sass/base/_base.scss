@@ -1,0 +1,47 @@
+//CSS Variables
+:root {
+  --text-smst: 1.6rem;
+  --text-smr: 1.8rem;
+  --text-sm: 2rem;
+  --text-md: 3rem;
+  --text-lg: 4rem;
+  --text-lgr: 4.2rem;
+  --text-lgst: 4.4rem;
+
+  --font-sans: "Raleway", sans-serif;
+  --font-serif: "Bitter", serif;
+  --font-logo: "Dancing Script", cursive, serif;
+  --font-logo-alt: "Italianno", cursive;
+  --font-hand: "Kaushan Script", sans-serif;
+}
+
+//Global Reset
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; //1rem == 10px  10px/16px default = 62.5%
+  background-color: hsl(120, 100%, 20%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  width: 80vw;
+  margin: auto;
+  background-color: white;
+  font-family: "Raleway", sans-serif; //Default base font
+}
+
+::selection {
+  background-color: var(--color-primary-dark);
+  color: var(--color-white);
+}

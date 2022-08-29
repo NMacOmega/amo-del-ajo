@@ -1,0 +1,16 @@
+@import "./base/base";
+@import "./base/utilities";
+
+@import "./components/offers";
+@import "./components/recommendations";
+@import "./components/story";
+@import "./components/bg-video";
+@import "./components/btn";
+
+@import "./layouts/nav";
+@import "./layouts/footer";
+
+@import "./pages/home.scss";
+@import "./pages/about.scss";
+@import "./pages/contact.scss";
+@import "./pages/menu.scss";

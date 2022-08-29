@@ -1,0 +1,15 @@
+.btn {
+  background-color: hsl(190, 70%, 30%);
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 1.8rem 3rem;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: hsl(190, 70%, 40%);
+  }
+}
