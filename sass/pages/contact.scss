@@ -2,7 +2,7 @@
   &__container {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: 40vh 50vh max-content min-content;
+    grid-template-rows: 40vh 50vh max-content min-content min-content;
   }
 
   &__bg-video {
@@ -48,6 +48,35 @@
 
   &__text {
     font-size: var(--text-md);
+  }
+
+  &__form-container {
+    grid-row: 3 / 4;
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: beige;
+    padding: 4rem;
+  }
+
+  &__form-heading {
+    font-family: var(--font-logo);
+    font-size: 4rem;
+    margin: 4rem auto;
+  }
+
+  &__form-label {
+    display: block;
+    font-size: 3rem;
+    font-family: var(--font-logo-alt);
+    font-weight: bold;
+  }
+  &__form-input {
+    display: block;
+    margin-bottom: 4rem;
+    font-size: 2rem;
+    font-family: var(--font-hand);
   }
 }
 
