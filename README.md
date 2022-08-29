@@ -1,10 +1,11 @@
-# amo-del-ajo
+# Amo de Ajo (Garlic Master)
 
 Faux Restaurant Website for CanCodeCommunity Assignment
 
 The CSS File to read overall is style.concat.css. All the rules are there.
 
-##SASS is here to help!
+## SASS is here to help!
+
 The sass directory contains all the CSS rules organized into the pages,
 layouts, and components that they belong to for easier reading and critiquing.
 
